@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908946012270",
+    "project_id": "uchat-6ea75",
+    "storage_bucket": "uchat-6ea75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908946012270:android:4c3693c252623c92a4ce7f",
+        "android_client_info": {
+          "package_name": "com.example.uchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLNNuRsXOouy2GblSF3U4sTgM-NSuRAM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
