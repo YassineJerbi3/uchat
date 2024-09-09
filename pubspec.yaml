@@ -24,9 +24,31 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
+  remove_alpha_ios: true  # Removes the alpha channel for iOS icons
+  min_sdk_android: 21
+
+  web:
+    generate: true
+    image_path: "assets/app_logo.png"
+    background_color: "#FFFFFF"  # Replace with your background color
+    theme_color: "#FFFFFF"  # Replace with your theme color
+
+  windows:
+    generate: true
+    image_path: "assets/app_logo.png"
+    icon_size: 48
+
+  macos:
+    generate: true
+    image_path: "assets/app_logo.png"
 
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/
-    - assets/icons/
+    - assets/app_logo.png  # Include only the app_logo.png
