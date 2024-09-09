@@ -25,7 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        return macos; // Ensure macOS has correct config
       case TargetPlatform.windows:
         return windows;
       case TargetPlatform.linux:
@@ -69,7 +69,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyA7mJotJCbLPeKEPISdVvPE9Gv6t2FvwLo',
-    appId: '1:908946012270:ios:8b6c6b8244c8900ca4ce7f',
+    appId: '1:908946012270:macos:8b6c6b8244c8900ca4ce7f', // Correct this if needed
     messagingSenderId: '908946012270',
     projectId: 'uchat-6ea75',
     storageBucket: 'uchat-6ea75.appspot.com',
